@@ -28,8 +28,15 @@ A infraestrutura foi provisionada em um ambiente real da AWS, permitindo validar
 
 
 ```
-projeto-devops-fase-2/
-└── terraform-aws-website-infrastructure/
+terraform-aws-website-infrastructure/
+|
+├── bucket-cration
+|   |
+|   ├── main.tf
+|   ├── provider.tf
+|   └── resource.tf
+|
+└── terraform-aws-vpc-iam-ec2-ecs
     │
     ├── modules/
     │   ├── ec2/
